@@ -12,6 +12,15 @@ text += U.dc_ohlaseni + ' - ';
 text += ' - Èas uzavøení: '; 
 text += U.dc_uzavreni + ' - ';
 
+text += '\n';
+text += 'Zasahující jednotky:\n';
+for (i = 0; i < U.J.pocet; i++) {
+	var JPOnazev = U.J[i].nazev;
+	var JPOkat = U.J[i].kategorie;
+
+	text += '• ' + JPOnazev + ' (' + JPOkat + ')\n';
+}
+
 text += X.jmeno_uzivatele;
 //return text;
 
