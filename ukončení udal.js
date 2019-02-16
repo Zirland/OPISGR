@@ -1,4 +1,6 @@
 //!JS
+// Verze 1.0
+
 var text = '';
 
 text += 'Ukonèení události ';
